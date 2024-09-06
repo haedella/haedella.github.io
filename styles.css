@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Franklin Gothic Light';
+    src: url('FranklinGothicLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Light', Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+    background-color: #e4e5e9;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    min-height: 100vh; /* Make the container take up at least the full height of the viewport */
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+	width:80%;
+    max-width: 400px;
+    margin: 40px auto 40px auto;
+}
+
+.content {
+    text-align: left;
+    color: #58585a;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.content p { 
+	margin-bottom: 25px; 
+}
+
+.footer {
+    background-color: #58585a;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    width:280px;
+    margin: 80px auto 0 auto;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info i {
+    width: 20px; /* Fixed width to align text */
+	align-self: flex-start;
+	margin: 2px 10px 0 15px;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
