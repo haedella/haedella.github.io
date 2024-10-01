@@ -47,14 +47,15 @@ body {
 	    padding-right: 40px;
     };
     @media only screen and (max-width:767px) {
-        padding-left: 40px;
-	    padding-right: 40px;
+        padding-left: 20px;
+	    padding-right: 20px;
     };
 
 }
 
 .content p { 
 	margin-bottom: 25px; 
+	text-align: justify;
 }
 
 .footer {
